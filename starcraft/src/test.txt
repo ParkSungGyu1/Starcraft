@@ -1,0 +1,7 @@
+Stack               heap
+marin1      ->      marin1Address
+marin2      ->      marin2Address
+marin3      ->      marin2Address
+marin4      ->      marin2Address
+marin5      ->      marin2Address
+marin6      ->      marin2Address
