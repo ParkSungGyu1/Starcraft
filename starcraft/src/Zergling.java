@@ -1,19 +1,20 @@
-public class Zergling {
-    int hp;
-    int dmg;
+public class Zergling extends AbstractUnit {
+
     public Zergling(int hp, int dmg){
-        this.hp = hp;
-        this.dmg = dmg;
+        super(hp,dmg);
     }
+
+    @Override
     public int attack(){
         return dmg;
     }
-    //공격받다
-    public void beAttacked(int dmg){
-        this.hp = this.hp - dmg;
+
+    @Override
+    public void beAttacked(AbstractUnit unit) {
+        this.hp -= unit.attack();
     }
 
-    public void attackedByMarin(Marin marin){
+/*    public void attackedByMarin(Marin marin){
         this.hp = this.hp - (marin.attack()+2);
     }
 
@@ -23,5 +24,5 @@ public class Zergling {
 
     public void status(){
         System.out.println("저글링 현재 체력 : " + hp);
-    }
+    }*/
 }

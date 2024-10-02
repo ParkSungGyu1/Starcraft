@@ -1,7 +1,7 @@
-Stack               heap
-marin1      ->      marin1Address
-marin2      ->      marin2Address
-marin3      ->      marin2Address
-marin4      ->      marin2Address
-marin5      ->      marin2Address
-marin6      ->      marin2Address
+
+자바의 깊은복사 얕은복사
+Call by Value / Call by Reference
+
+int double float
+
+String, Marin, Zealot
